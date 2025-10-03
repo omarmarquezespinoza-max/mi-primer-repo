@@ -18,7 +18,7 @@ jobs:
     - name: Run script
       run: python hola.py
     - name: Upload image artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: imagen-saludo
         path: saludo.png
